@@ -1,0 +1,46 @@
+#topic1{
+   margin-top: 60px;
+}
+
+button{
+    font-size: 20pt;
+    color: rgb(238, 87, 87);
+}
+div{
+    text-align: center;
+    font-size: 30pt;
+    color: rgb(0, 0, 0);
+}
+body{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+#fb-link{
+	margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 18pt;
+    font-weight: bold; 
+    text-align: center;
+}
+
+#HOME1{
+    margin-top: 60px;
+}
+
+#HOME{
+    color: #000;
+    font-weight: bold; 
+}
+
+a:link{
+    color: rgb(102, 238, 39);
+}
+
+a:visited{
+    color: rgb(245, 103, 47);
+}
+
+a:hover{
+    color: rgb(112, 184, 19);
+}

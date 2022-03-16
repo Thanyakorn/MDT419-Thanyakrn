@@ -1,0 +1,168 @@
+body{
+    background-color: rgb(245, 241, 229);
+    
+}
+h1{
+    font-size: 50pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+h2{
+    font-size: 40pt;
+    font-style: italic;  
+}
+h3{
+    font-size: 30pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+h4{
+    font-size: 30pt;
+    color: rgb(255, 255, 255);
+}
+
+
+ul{
+    text-align: left;
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 50% 50%; 
+}
+
+.grid-container > div{
+	text-align: center; 
+}
+
+#header{
+	grid-column: 1 / span 2;
+}
+
+
+#main1{
+    grid-column: 1 / span 1;
+    background-color: rgb(196, 224, 248); 
+}
+
+#Nack_pic1{  
+    
+    display: flex;
+    margin: auto;
+    padding-top: 60px; 
+    padding-bottom: 60px; 
+    
+    width: 80%;  
+}
+
+#main2{
+    grid-column: 2 / span 1;
+    background-color: rgb(242, 229, 245);
+ 
+}
+
+#main3{
+    grid-column: 1 / span 2;
+    padding-top: 30px;
+    padding-bottom: 60px;  
+    background-color: rgb(0, 0, 0);
+}
+#mdt419-text{
+    font-size: 20pt;
+    font-family: cursive;
+}
+
+
+#main4{
+    grid-column: 1 / span 1;
+    
+    background-color: rgb(240, 179, 68);	
+}
+#main4-text{
+    font-size: 20pt;
+}
+
+#main5{
+    grid-column: 2 / span 1;
+    background-color: rgb(202, 206, 141);	
+    padding-bottom: 40px;
+
+}
+#main5-text{
+    font-size: 20%;
+
+}
+#main5-SizeFB{
+    width: 10%;
+}
+
+#main5-SizeLine{
+    width: 10%;
+}
+
+#link-text a{
+    color: rgb(255, 142, 142);
+    font-size: 20pt;
+    font-weight: bold; 
+}
+
+#link-PROJECT{
+    font-size: 20pt;
+    color: #000;
+    font-weight: bold; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media only screen and (max-width: 580px) {
+
+    body{
+		background-color: rgb(255, 255, 255);
+	}	
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+  }
+
+  #header{
+	grid-column: 1 / span 1;
+}
+
+
+#main1{
+    grid-column: 1 / span 1;
+    background-color: rgb(196, 224, 248); 
+}
+
+
+#main2{
+    grid-column: 1 / span 1;
+    background-color: rgb(242, 229, 245);
+ 
+}
+
+#main3{
+    grid-column: 1 / span 1;
+    padding-top: 30px;
+    padding-bottom: 60px;  
+    background-color: rgb(0, 0, 0);
+}
+
+
+#main4{
+    grid-column: 1 / span 1;
+    background-color: rgb(240, 179, 68);
+    padding-bottom: 60px; 
+
+}
+
+#main5{
+    grid-column: 1 / span 1;
+    background-color: rgb(202, 206, 141);	
+    padding-bottom: 40px;
+
+}
+
+}
+
